@@ -30,7 +30,8 @@ twitter_username: iambeingness
 github_username:  RahulRajuPattar
 
 # Build settings
-theme: minima
+markdown: kramdown
+theme: minimal
 plugins:
   - jekyll-feed
 

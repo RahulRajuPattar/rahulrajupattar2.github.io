@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Parameterizing the Space of 3D Rotations
+title: Method of Stationary Phase
 comments: true
 category: mathematics
-tags: applied topology, SymPy, computer graphics
+tags: Oscillatory Integrals, Microlocal Analysis
 ---
 
 3D medical images in the NifTI format store data from MRI acquisitions of some anatomy, like a human brain or heart. When I was a postdoc @Penn [my lab][3] was primarily interested in studying brains. Each image associates grayscale values ( in the simplest case ) to discrete coordinates $(i,j,k)$, which describe voxel locations. And for reasons best explained by [NifTI FAQ][2] it's useful/important to align the acquired image to some other coordinate system. This alignment is stored in the image header, as a rigid motion plus an offset. Here's a bit of [NifTI documentation][1] motivating the need to keep the alignment.
